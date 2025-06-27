@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Hero from './components/Hero';
-import './css/App.css'; // Assuming you have a CSS file for styling
+import Header from './components/Header';
+import Button from './components/Button';
 
 function App() {
+  const [page, setPage] = useState('home'); // State controls which component is shown
+
     return (
-        <div className="App">
-            <Hero />
+        <div>
+            {page === 'home' && <Hero onGetStarted={() => setPage('getStarted')} />}
+            {page === 'getStarted' && <GetStartedPage setPage={setPage} />}
+            {page === 'home' && page !== 'getStarted' && <Header /> }
         </div>
     );
 }
+
 export default App;

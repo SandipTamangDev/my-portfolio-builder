@@ -1,0 +1,17 @@
+.GetStartedPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 60px; /* Adjust for fixed header */
+    gap: 20px;
+    height: 100vh;
+}
+
+.portfolio-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import Button from './Button';
 import '../css/Hero.css';
 
+
 function Hero({ className = '', onGetStarted }) {
     return (
         <section className={`Hero ${className}`}>
