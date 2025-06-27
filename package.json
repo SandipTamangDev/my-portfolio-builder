@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio-builder",
+  "homepage": "https://github.com/SandipTamangDev/my-portfolio-builder",
   "private": true,
   "version": "0.0.0",
   "type": "module",
