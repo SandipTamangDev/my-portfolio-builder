@@ -15,18 +15,18 @@ function GettingStarted({ className = '' }) {
     };
     return (
         <section className={`getting-started ${className}`}>
-        <div className="getting-started-content">
-            <h1>Create a Stunning Portfolio in Minutes</h1>
-            <p>No coding. No hassle. Just pick a style and you're live.</p>
-            <div className="getting-started-buttons">
-            <Button onClick={handleGetStarted} className="btn primary">
-                Get Started
-            </Button>
-            <Button onClick={handlePortfolio} className="btn primary">
-                Portfolios
-            </Button>
+            <div className="getting-started-content">
+                <h1>Create a Stunning Portfolio in Minutes</h1>
+                <p>No coding. No hassle. Just pick a style and you're live.</p>
+                <div className="getting-started-buttons">
+                <Button onClick={handleGetStarted} className="btn primary">
+                    Get Started
+                </Button>
+                <Button onClick={handlePortfolio} className="btn primary">
+                    Portfolios
+                </Button>
+                </div>
             </div>
-        </div>
         </section>
     );
 }

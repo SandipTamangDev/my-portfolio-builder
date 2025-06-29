@@ -1,7 +1,7 @@
 .getting-started {
-  height: calc(100vh - 60px);
+  height: 100vh;
   width: 100%;
-  background-color: #fff;
+  background-color: #f4f4f4;
   color: #333;
   display: flex;
   align-items: center;

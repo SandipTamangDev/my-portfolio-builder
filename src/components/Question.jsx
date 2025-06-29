@@ -18,9 +18,9 @@ function Question() {
             <h1>Welcome to the Question Page</h1>
             <p>Please answer the questions below to build your portfolio in minutes.</p>
             
-            <div style={{ margin: '2rem 0' }}>
-            <label htmlFor="name">Your Name:</label><br />
-            <input type="text" id="name" name="name" placeholder="Enter your name" />
+            <div className='textInput' style={{ margin: '2rem 0' }}>
+                <label htmlFor="name">Your Name:</label><br />
+                <input type="text" id="name" name="name" placeholder="Enter your name" />
             </div>
             
             <Button onClick={handleNext} className="btn primary">

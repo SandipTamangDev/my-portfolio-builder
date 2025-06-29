@@ -4,8 +4,13 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 20px;
+    padding: 100px;
     gap: 20px;
+    width: 1440px;
+    margin: auto;
+    background-color: #f4f4f4;
+    color: #333;
+
 }
 
 .portfolio-options {
