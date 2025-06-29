@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import '../css/Hero.css';
+import '../css/GettingStarted.css';
 
 
 function Hero({ className = '', onGetStarted }) {
@@ -11,6 +11,7 @@ function Hero({ className = '', onGetStarted }) {
                 <p>No coding. No hassle. Just pick a style and you're live.</p>
                 <div className="hero-buttons">
                     <Button onClick={onGetStarted} className='btn primary'>Get Started</Button>
+                    <button></button>
                 </div>
             </div>
         </section>

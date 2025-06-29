@@ -1,32 +1,11 @@
 import React from 'react';
 
-function Button({ href, target, children, onClick, className = '', ...rest}) {
-
-    if (href) {
-        return (
-            <a
-                href={href}
-                target={target}
-                className={`custom-button ${className}`}
-                {...rest}
-            >
-                {children}
-            </a>
-        )
-    }
-
-
+function Button({ children, onClick }) {
     return (
-        <button
-            onClick={onClick}
-            className={`custom-button ${className}`}
-
-            {...rest}
-        >
-            {children}
+        <button onClick={onClick}>
+        {children}
         </button>
-    )
+    );
 }
 
 export default Button;
-
