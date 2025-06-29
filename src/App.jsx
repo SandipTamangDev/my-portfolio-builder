@@ -7,9 +7,9 @@ export default function App() {
     return (
         <div>
             <nav>
-                <Link to="/#/blue">Blue</Link> | 
-                <Link to="/#/red">Red</Link> | 
-                <Link to="/#/yellow">Yellow</Link>
+                <Link to="/blue">Blue</Link> | 
+                <Link to="/red">Red</Link> | 
+                <Link to="/yellow">Yellow</Link>
             </nav>
 
             <Routes>
