@@ -1,27 +1,14 @@
-header {
-    position: fixed;
-    top: 0;
-    background-color: #fff;
-    color: #000;
-    width: 100%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 0 20px;
-}
-
 .header {
     display: flex;
-    gap: 20px;
+    height: 60px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d1d1d1;
+    gap: 10px;
 }
 
-.hero-buttons .btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.btnGroup {
+    display: flex;
+    gap: 10px;
 }

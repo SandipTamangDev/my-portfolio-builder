@@ -1,22 +1,19 @@
 import React from 'react';
 import Button from './Button';
 import '../css/Header.css'; // Assuming you have a CSS file for styling
+import logo from '../assets/logo.png'
 
 
-function Header({children,alignItems, justifyContent, flexDirection}) {
-    const headerStyle = {
-        backgroundColor: '#333',
-        color: '#fff',
-        padding: '10px 20px',
-        display: 'flex',
-        alignItems: alignItems || 'center',
-        justifyContent: justifyContent || 'space-between',
-        flexDirection: flexDirection || 'row',
-    }
+function Header() {
 
     return (
-        <header style={headerStyle} className={`Header ${alignItems} ${justifyContent} ${flexDirection}`}>
-            {children}
+        <header className='header'>
+            <img src={logo} alt="#" width="50px" height="50px" />
+
+            <div className='btnGroup'>
+                <Button>Sign up</Button>
+                <Button>Login</Button>
+            </div>
         </header>
     );
 }

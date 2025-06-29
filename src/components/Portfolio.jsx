@@ -1,16 +1,19 @@
 import React from 'react';
 import Header from './Header';
 import Button from './Button';
-import Card from './Card';
-import '../css/GetStartedPage.css'; // Assuming you have a CSS file for styling
+import Card from './Card';// Assuming you have a CSS file for styling
+import '../css/Porfolios.css'
 
-function GetStartedPage() {
+function Portfolio() {
     return (
         <>
-            <div className="portoflio">
+            <div className="portfolio">
                 <h1>Choose your Portfolio</h1>
                 <p>Pick a style that suits you best. You can change it later.</p>
                 <div className="portfolio-options">
+                    <Card />
+                    <Card />
+                    <Card />
                     <Card />
                     <Card />
                     <Card />
@@ -20,4 +23,4 @@ function GetStartedPage() {
     );
 }
 
-export default GetStartedPage;
+export default Portfolio;
