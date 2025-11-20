@@ -1,28 +1,37 @@
-.getting-started {
+.getting_started {
   height: 100vh;
   width: 100%;
-  background-color: #f4f4f4;
+  background-image: url('../assets/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover ;
   color: #333;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  padding: 20px;
 }
 
-.getting-started-content {
+.getting_started_container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   gap: 20px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 0%;
+  min-height: 50%;
+  width: clamp(200px, 60vw + 10em, 900px);
 }
 
-.getting-started-buttons {
+.getting_started_buttons {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
-.getting-started-buttons .btn {
+.getting_started_buttons .btn {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -30,4 +39,14 @@
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+h1 {
+  color: #333;
+}
+
+@media (min-width: 1024px) {
+  .getting_started {
+    padding: 100px;
+  }
 }

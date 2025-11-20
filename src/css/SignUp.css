@@ -1,0 +1,51 @@
+.BlueStyle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../assets/hero.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding: 100px;
+}
+
+.BlueStyle section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+    max-width: 500px;
+    min-width: 350px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 8px;
+    padding-bottom: 40px;
+}
+
+.BlueStyle section form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+input {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    border-bottom: 1px solid #d1d1d1;
+    width: 300px;
+}
+
+input:hover {
+    background-color: #d1d1d1;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+

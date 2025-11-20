@@ -1,18 +1,38 @@
 import React from 'react';
 import Button from './Button';
-import '../css/Header.css'; // Assuming you have a CSS file for styling
-import logo from '../assets/logo.png'
-
+import { useNavigate } from 'react-router-dom';
+import '../css/Header.css';
+import logo from '../assets/logo1.png';
 
 function Header() {
+    const navigate = useNavigate();
+
+    const handleSignUp = () => {
+        navigate('/SignUp');
+    };
+
+    const handleLogin = () => {
+        navigate('/Login');
+    };
+
+    const handleLogoClick = () => {
+        navigate('/');
+    };
 
     return (
         <header className='header'>
-            <img src={logo} alt="#" width="50px" height="50px" />
+            <img
+                src={logo}
+                alt="Logo"
+                width="40em"
+                height="40em"
+                style={{ cursor: 'pointer' }}
+                onClick={handleLogoClick}
+            />
 
             <div className='btnGroup'>
-                <Button>Sign up</Button>
-                <Button>Login</Button>
+                <Button onClick={handleSignUp}>Sign up</Button>
+                <Button onClick={handleLogin}>Login</Button>
             </div>
         </header>
     );

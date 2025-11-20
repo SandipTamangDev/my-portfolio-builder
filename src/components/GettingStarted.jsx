@@ -14,11 +14,11 @@ function GettingStarted({ className = '' }) {
         navigate('/Portfolio');  // navigate to /Question page
     };
     return (
-        <section className={`getting-started ${className}`}>
-            <div className="getting-started-content">
+        <section className={`getting_started ${className}`}>
+            <div className="getting_started_container">
                 <h1>Create a Stunning Portfolio in Minutes</h1>
                 <p>No coding. No hassle. Just pick a style and you're live.</p>
-                <div className="getting-started-buttons">
+                <div className="getting_started_buttons">
                 <Button onClick={handleGetStarted} className="btn primary">
                     Get Started
                 </Button>

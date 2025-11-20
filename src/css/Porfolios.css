@@ -8,9 +8,12 @@
     gap: 20px;
     width: 1440px;
     margin: auto;
-    background-color: #f4f4f4;
+    background-image: url('../assets/hero.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
     color: #333;
-
+    
 }
 
 .portfolio-options {
